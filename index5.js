@@ -24,13 +24,14 @@
  
     
 //});
-let name ='hritish'
-var i=234;
-console.log(i);
-function ui(name) {
+//let name ='hritish'
+//var i=234;
+//console.log(i);
+/*function ui(name) {
     vari=9;
 
     return 'this is a ${name} ui'
     
 }
 console.log(ui('hritish'),i);
+*/
