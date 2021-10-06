@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        .menubar {
+            background-color: transparent;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .menubar ul {
+            list-style: none;
+            display: inline-flex;
+
+        }
+
+        .menubar ul li {
+            width: 130px;
+            margin: 15px;
+            padding: 15px;
+        }
+
+        .menubar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .active,
+        .menubar ul li :hover {
+            color: blue;
+
+        }
+
+        .submenu1 {
+            display: none;
+        }
+
+        .menubar ul li:hover .submenu1 {
+            display: block;
+            position: absolute;
+            margin-top: 15px;
+            margin-left: -8px;
+
+        }
+
+        .menubar ul li:hover .submenu1 ul {
+            display: block;
+            margin: 10px;
+        }
+
+        .menubar ul li:hover .submenu1 ul li {
+            text-align: left;
+            color: black;
+            width: 150px;
+            padding: 10px;
+            background: transparent;
+            border-bottom: block;
+        }
+        #search{
+            width: 90px;
+            height: 30px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menubar">
+        <ul>
+            <li class="active"><a href="#">ABOUT US</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="#"></a>OUR JOURNEY</li>
+                        <li><a href="#"></a>MANAGEMENT</li>
+                        <li><a href="#"></a>VISION & MISSION</li>
+                        <li><a href="#"></a>VALUE</li>
+                        <li><a href="#"></a>WHY LEEFORD</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">OPERATIONS</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">RESPONSIBILITY</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">CAREER</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">LET'S CONNECT</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">BUY ONLINE</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                        <li><a href="#"></a> submenu</li>
+                    </ul>
+                </div>
+            </li>
+            <input type="text" name="search" id="search" placeholder="Search this website">
+        </ul>
+    </div>
+</body>
+
+
+</html>
