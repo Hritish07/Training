@@ -20,7 +20,7 @@ imgBox.addEventListener('dragend', (e) => {
     e.target.className = 'imgBox';
 });
 
-for (whiteBox of whiteBoxes) {
+for (whiteBox of whiteBoxes) {s
     whiteBox.addEventListener('dragover', (e) => {
         e.preventDefault();
         console.log('DragOver has been triggered');
